@@ -6,7 +6,7 @@ import {
   // Commande
   const pauseCommand = new SlashCommandBuilder()
     .setName("pause")
-    .setDescription("Met en pause la lecture")
+    .setDescription("Met en pause ou reprend la lecture")
     .setDefaultMemberPermissions(
       PermissionFlagsBits.Connect | PermissionFlagsBits.Speak
     );

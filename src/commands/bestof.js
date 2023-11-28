@@ -6,7 +6,7 @@ import {
 // Commande
 const bestofCommand = new SlashCommandBuilder()
   .setName("bestof")
-  .setDescription("Le bestof Kaamelott")
+  .setDescription("Le BestOf de Kaamelott")
   .setDefaultMemberPermissions(
     PermissionFlagsBits.Connect | PermissionFlagsBits.Speak
   );

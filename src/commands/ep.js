@@ -6,7 +6,7 @@ import {
 // Commande
 const epCommand = new SlashCommandBuilder()
   .setName("ep")
-  .setDescription("Recherche un épisode de Kaamelott")
+  .setDescription("Recherche un(ou des) épisode de Kaamelott (ex: Unagi -> Tout les épisodes nommé Unagi)")
   .addStringOption((option) =>
     option
       .setName("episode")
